@@ -1,2 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+confusion_matrix.png
